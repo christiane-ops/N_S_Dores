@@ -87,151 +87,166 @@ var lyr_280130620000005_5 = new ol.layer.Vector({
                 interactive: true,
                     title: '<img src="styles/legend/280130620000005_5.png" /> 280130620000005'
                 });
-var format_280130610000010_6 = new ol.format.GeoJSON();
-var features_280130610000010_6 = format_280130610000010_6.readFeatures(json_280130610000010_6, 
+var format_280130610000011_6 = new ol.format.GeoJSON();
+var features_280130610000011_6 = format_280130610000011_6.readFeatures(json_280130610000011_6, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_280130610000010_6 = new ol.source.Vector({
+var jsonSource_280130610000011_6 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_280130610000010_6.addFeatures(features_280130610000010_6);
-var lyr_280130610000010_6 = new ol.layer.Vector({
+jsonSource_280130610000011_6.addFeatures(features_280130610000011_6);
+var lyr_280130610000011_6 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_280130610000010_6, 
-                style: style_280130610000010_6,
+                source:jsonSource_280130610000011_6, 
+                style: style_280130610000011_6,
+                popuplayertitle: "280130610000011",
+                interactive: true,
+                    title: '<img src="styles/legend/280130610000011_6.png" /> 280130610000011'
+                });
+var format_280130610000010_7 = new ol.format.GeoJSON();
+var features_280130610000010_7 = format_280130610000010_7.readFeatures(json_280130610000010_7, 
+            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
+var jsonSource_280130610000010_7 = new ol.source.Vector({
+    attributions: ' ',
+});
+jsonSource_280130610000010_7.addFeatures(features_280130610000010_7);
+var lyr_280130610000010_7 = new ol.layer.Vector({
+                declutter: false,
+                source:jsonSource_280130610000010_7, 
+                style: style_280130610000010_7,
                 popuplayertitle: "280130610000010",
                 interactive: true,
-                    title: '<img src="styles/legend/280130610000010_6.png" /> 280130610000010'
+                    title: '<img src="styles/legend/280130610000010_7.png" /> 280130610000010'
                 });
-var format_280450805000008_7 = new ol.format.GeoJSON();
-var features_280450805000008_7 = format_280450805000008_7.readFeatures(json_280450805000008_7, 
+var format_280450805000008_8 = new ol.format.GeoJSON();
+var features_280450805000008_8 = format_280450805000008_8.readFeatures(json_280450805000008_8, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_280450805000008_7 = new ol.source.Vector({
+var jsonSource_280450805000008_8 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_280450805000008_7.addFeatures(features_280450805000008_7);
-var lyr_280450805000008_7 = new ol.layer.Vector({
+jsonSource_280450805000008_8.addFeatures(features_280450805000008_8);
+var lyr_280450805000008_8 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_280450805000008_7, 
-                style: style_280450805000008_7,
+                source:jsonSource_280450805000008_8, 
+                style: style_280450805000008_8,
                 popuplayertitle: "280450805000008",
                 interactive: true,
-                    title: '<img src="styles/legend/280450805000008_7.png" /> 280450805000008'
+                    title: '<img src="styles/legend/280450805000008_8.png" /> 280450805000008'
                 });
-var format_280130615000003_8 = new ol.format.GeoJSON();
-var features_280130615000003_8 = format_280130615000003_8.readFeatures(json_280130615000003_8, 
+var format_280130615000003_9 = new ol.format.GeoJSON();
+var features_280130615000003_9 = format_280130615000003_9.readFeatures(json_280130615000003_9, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_280130615000003_8 = new ol.source.Vector({
+var jsonSource_280130615000003_9 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_280130615000003_8.addFeatures(features_280130615000003_8);
-var lyr_280130615000003_8 = new ol.layer.Vector({
+jsonSource_280130615000003_9.addFeatures(features_280130615000003_9);
+var lyr_280130615000003_9 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_280130615000003_8, 
-                style: style_280130615000003_8,
+                source:jsonSource_280130615000003_9, 
+                style: style_280130615000003_9,
                 popuplayertitle: "280130615000003",
                 interactive: true,
-                    title: '<img src="styles/legend/280130615000003_8.png" /> 280130615000003'
+                    title: '<img src="styles/legend/280130615000003_9.png" /> 280130615000003'
                 });
-var format_280560405000001_9 = new ol.format.GeoJSON();
-var features_280560405000001_9 = format_280560405000001_9.readFeatures(json_280560405000001_9, 
+var format_280560405000001_10 = new ol.format.GeoJSON();
+var features_280560405000001_10 = format_280560405000001_10.readFeatures(json_280560405000001_10, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_280560405000001_9 = new ol.source.Vector({
+var jsonSource_280560405000001_10 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_280560405000001_9.addFeatures(features_280560405000001_9);
-var lyr_280560405000001_9 = new ol.layer.Vector({
+jsonSource_280560405000001_10.addFeatures(features_280560405000001_10);
+var lyr_280560405000001_10 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_280560405000001_9, 
-                style: style_280560405000001_9,
+                source:jsonSource_280560405000001_10, 
+                style: style_280560405000001_10,
                 popuplayertitle: "280560405000001",
                 interactive: true,
-                    title: '<img src="styles/legend/280560405000001_9.png" /> 280560405000001'
+                    title: '<img src="styles/legend/280560405000001_10.png" /> 280560405000001'
                 });
-var format_280450805000076_10 = new ol.format.GeoJSON();
-var features_280450805000076_10 = format_280450805000076_10.readFeatures(json_280450805000076_10, 
+var format_280450805000076_11 = new ol.format.GeoJSON();
+var features_280450805000076_11 = format_280450805000076_11.readFeatures(json_280450805000076_11, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_280450805000076_10 = new ol.source.Vector({
+var jsonSource_280450805000076_11 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_280450805000076_10.addFeatures(features_280450805000076_10);
-var lyr_280450805000076_10 = new ol.layer.Vector({
+jsonSource_280450805000076_11.addFeatures(features_280450805000076_11);
+var lyr_280450805000076_11 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_280450805000076_10, 
-                style: style_280450805000076_10,
+                source:jsonSource_280450805000076_11, 
+                style: style_280450805000076_11,
                 popuplayertitle: "280450805000076",
                 interactive: true,
-                    title: '<img src="styles/legend/280450805000076_10.png" /> 280450805000076'
+                    title: '<img src="styles/legend/280450805000076_11.png" /> 280450805000076'
                 });
-var format_280420105000040_11 = new ol.format.GeoJSON();
-var features_280420105000040_11 = format_280420105000040_11.readFeatures(json_280420105000040_11, 
+var format_280420105000040_12 = new ol.format.GeoJSON();
+var features_280420105000040_12 = format_280420105000040_12.readFeatures(json_280420105000040_12, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_280420105000040_11 = new ol.source.Vector({
+var jsonSource_280420105000040_12 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_280420105000040_11.addFeatures(features_280420105000040_11);
-var lyr_280420105000040_11 = new ol.layer.Vector({
+jsonSource_280420105000040_12.addFeatures(features_280420105000040_12);
+var lyr_280420105000040_12 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_280420105000040_11, 
-                style: style_280420105000040_11,
+                source:jsonSource_280420105000040_12, 
+                style: style_280420105000040_12,
                 popuplayertitle: "280420105000040",
                 interactive: true,
-                    title: '<img src="styles/legend/280420105000040_11.png" /> 280420105000040'
+                    title: '<img src="styles/legend/280420105000040_12.png" /> 280420105000040'
                 });
-var format_280420105000039_12 = new ol.format.GeoJSON();
-var features_280420105000039_12 = format_280420105000039_12.readFeatures(json_280420105000039_12, 
+var format_280420105000039_13 = new ol.format.GeoJSON();
+var features_280420105000039_13 = format_280420105000039_13.readFeatures(json_280420105000039_13, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_280420105000039_12 = new ol.source.Vector({
+var jsonSource_280420105000039_13 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_280420105000039_12.addFeatures(features_280420105000039_12);
-var lyr_280420105000039_12 = new ol.layer.Vector({
+jsonSource_280420105000039_13.addFeatures(features_280420105000039_13);
+var lyr_280420105000039_13 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_280420105000039_12, 
-                style: style_280420105000039_12,
+                source:jsonSource_280420105000039_13, 
+                style: style_280420105000039_13,
                 popuplayertitle: "280420105000039",
                 interactive: true,
-                    title: '<img src="styles/legend/280420105000039_12.png" /> 280420105000039'
+                    title: '<img src="styles/legend/280420105000039_13.png" /> 280420105000039'
                 });
-var format_280450805000027_13 = new ol.format.GeoJSON();
-var features_280450805000027_13 = format_280450805000027_13.readFeatures(json_280450805000027_13, 
+var format_280450805000027_14 = new ol.format.GeoJSON();
+var features_280450805000027_14 = format_280450805000027_14.readFeatures(json_280450805000027_14, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_280450805000027_13 = new ol.source.Vector({
+var jsonSource_280450805000027_14 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_280450805000027_13.addFeatures(features_280450805000027_13);
-var lyr_280450805000027_13 = new ol.layer.Vector({
+jsonSource_280450805000027_14.addFeatures(features_280450805000027_14);
+var lyr_280450805000027_14 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_280450805000027_13, 
-                style: style_280450805000027_13,
+                source:jsonSource_280450805000027_14, 
+                style: style_280450805000027_14,
                 popuplayertitle: "280450805000027",
                 interactive: true,
-                    title: '<img src="styles/legend/280450805000027_13.png" /> 280450805000027'
+                    title: '<img src="styles/legend/280450805000027_14.png" /> 280450805000027'
                 });
-var format_280120705000034_14 = new ol.format.GeoJSON();
-var features_280120705000034_14 = format_280120705000034_14.readFeatures(json_280120705000034_14, 
+var format_280120705000034_15 = new ol.format.GeoJSON();
+var features_280120705000034_15 = format_280120705000034_15.readFeatures(json_280120705000034_15, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_280120705000034_14 = new ol.source.Vector({
+var jsonSource_280120705000034_15 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_280120705000034_14.addFeatures(features_280120705000034_14);
-var lyr_280120705000034_14 = new ol.layer.Vector({
+jsonSource_280120705000034_15.addFeatures(features_280120705000034_15);
+var lyr_280120705000034_15 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_280120705000034_14, 
-                style: style_280120705000034_14,
+                source:jsonSource_280120705000034_15, 
+                style: style_280120705000034_15,
                 popuplayertitle: "280120705000034",
                 interactive: true,
-                    title: '<img src="styles/legend/280120705000034_14.png" /> 280120705000034'
+                    title: '<img src="styles/legend/280120705000034_15.png" /> 280120705000034'
                 });
 var group_CENFE_SETEMBRO_PNADC_OUT = new ol.layer.Group({
-                                layers: [lyr_280120705000034_14,],
+                                layers: [lyr_280120705000034_15,],
                                 fold: "open",
                                 title: "CENFE_SETEMBRO_PNADC_OUT"});
 var group_CNEFE_OUTUBRO_PNADC_NOV = new ol.layer.Group({
-                                layers: [lyr_280130615000003_8,lyr_280560405000001_9,lyr_280450805000076_10,lyr_280420105000040_11,lyr_280420105000039_12,lyr_280450805000027_13,],
+                                layers: [lyr_280130615000003_9,lyr_280560405000001_10,lyr_280450805000076_11,lyr_280420105000040_12,lyr_280420105000039_13,lyr_280450805000027_14,],
                                 fold: "open",
                                 title: "CNEFE_OUTUBRO_PNADC_NOV"});
 var group_CNEFE_NOVEMBRO_PNADC_DEZ = new ol.layer.Group({
-                                layers: [lyr_280130610000010_6,lyr_280450805000008_7,],
+                                layers: [lyr_280130610000011_6,lyr_280130610000010_7,lyr_280450805000008_8,],
                                 fold: "open",
                                 title: "CNEFE_NOVEMBRO_PNADC_DEZ"});
 var group_CNEFE_DEZEMBRO_PNADC_JAN = new ol.layer.Group({
@@ -239,50 +254,53 @@ var group_CNEFE_DEZEMBRO_PNADC_JAN = new ol.layer.Group({
                                 fold: "open",
                                 title: "CNEFE_DEZEMBRO_PNADC_JAN"});
 
-lyr_OSMStandard_0.setVisible(true);lyr_AG_DORES_23_1.setVisible(true);lyr_280460705000056_2.setVisible(true);lyr_280560405000074_3.setVisible(true);lyr_280560405000075_4.setVisible(true);lyr_280130620000005_5.setVisible(true);lyr_280130610000010_6.setVisible(true);lyr_280450805000008_7.setVisible(true);lyr_280130615000003_8.setVisible(true);lyr_280560405000001_9.setVisible(true);lyr_280450805000076_10.setVisible(true);lyr_280420105000040_11.setVisible(true);lyr_280420105000039_12.setVisible(true);lyr_280450805000027_13.setVisible(true);lyr_280120705000034_14.setVisible(true);
+lyr_OSMStandard_0.setVisible(true);lyr_AG_DORES_23_1.setVisible(true);lyr_280460705000056_2.setVisible(true);lyr_280560405000074_3.setVisible(true);lyr_280560405000075_4.setVisible(true);lyr_280130620000005_5.setVisible(true);lyr_280130610000011_6.setVisible(true);lyr_280130610000010_7.setVisible(true);lyr_280450805000008_8.setVisible(true);lyr_280130615000003_9.setVisible(true);lyr_280560405000001_10.setVisible(true);lyr_280450805000076_11.setVisible(true);lyr_280420105000040_12.setVisible(true);lyr_280420105000039_13.setVisible(true);lyr_280450805000027_14.setVisible(true);lyr_280120705000034_15.setVisible(true);
 var layersList = [lyr_OSMStandard_0,lyr_AG_DORES_23_1,group_CNEFE_DEZEMBRO_PNADC_JAN,group_CNEFE_NOVEMBRO_PNADC_DEZ,group_CNEFE_OUTUBRO_PNADC_NOV,group_CENFE_SETEMBRO_PNADC_OUT];
 lyr_AG_DORES_23_1.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
 lyr_280460705000056_2.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
 lyr_280560405000074_3.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
 lyr_280560405000075_4.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
 lyr_280130620000005_5.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
-lyr_280130610000010_6.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
-lyr_280450805000008_7.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
-lyr_280130615000003_8.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
-lyr_280560405000001_9.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
-lyr_280450805000076_10.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
-lyr_280420105000040_11.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
-lyr_280420105000039_12.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
-lyr_280450805000027_13.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
-lyr_280120705000034_14.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
+lyr_280130610000011_6.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
+lyr_280130610000010_7.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
+lyr_280450805000008_8.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
+lyr_280130615000003_9.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
+lyr_280560405000001_10.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
+lyr_280450805000076_11.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
+lyr_280420105000040_12.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
+lyr_280420105000039_13.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
+lyr_280450805000027_14.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
+lyr_280120705000034_15.set('fieldAliases', {'COD_SETOR': 'COD_SETOR', 'SIT_TIPO': 'SIT_TIPO', 'NOME_MUNI': 'NOME_MUNI', });
 lyr_AG_DORES_23_1.set('fieldImages', {'COD_SETOR': 'TextEdit', 'SIT_TIPO': '', 'NOME_MUNI': '', });
 lyr_280460705000056_2.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
 lyr_280560405000074_3.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
 lyr_280560405000075_4.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
 lyr_280130620000005_5.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
-lyr_280130610000010_6.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
-lyr_280450805000008_7.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
-lyr_280130615000003_8.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
-lyr_280560405000001_9.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
-lyr_280450805000076_10.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
-lyr_280420105000040_11.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
-lyr_280420105000039_12.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
-lyr_280450805000027_13.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
-lyr_280120705000034_14.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
+lyr_280130610000011_6.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
+lyr_280130610000010_7.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
+lyr_280450805000008_8.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
+lyr_280130615000003_9.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
+lyr_280560405000001_10.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
+lyr_280450805000076_11.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
+lyr_280420105000040_12.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
+lyr_280420105000039_13.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
+lyr_280450805000027_14.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
+lyr_280120705000034_15.set('fieldImages', {'COD_SETOR': '', 'SIT_TIPO': '', 'NOME_MUNI': '', });
 lyr_AG_DORES_23_1.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
 lyr_280460705000056_2.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
 lyr_280560405000074_3.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
 lyr_280560405000075_4.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
 lyr_280130620000005_5.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
-lyr_280130610000010_6.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
-lyr_280450805000008_7.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
-lyr_280130615000003_8.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
-lyr_280560405000001_9.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
-lyr_280450805000076_10.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
-lyr_280420105000040_11.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
-lyr_280420105000039_12.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
-lyr_280450805000027_13.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
-lyr_280120705000034_14.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
-lyr_280120705000034_14.on('precompose', function(evt) {
+lyr_280130610000011_6.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
+lyr_280130610000010_7.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
+lyr_280450805000008_8.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
+lyr_280130615000003_9.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
+lyr_280560405000001_10.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
+lyr_280450805000076_11.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
+lyr_280420105000040_12.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
+lyr_280420105000039_13.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
+lyr_280450805000027_14.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
+lyr_280120705000034_15.set('fieldLabels', {'COD_SETOR': 'inline label - always visible', 'SIT_TIPO': 'inline label - always visible', 'NOME_MUNI': 'inline label - always visible', });
+lyr_280120705000034_15.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
